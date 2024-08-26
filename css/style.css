@@ -13,7 +13,6 @@ body {
   color: #fff;
   position: relative;
   height: 100%;
-  animation: colorChange 10s infinite alternate;
   text-shadow: 1px 1px 11px black;
 }
 @-webkit-keyframes colorChange {
@@ -185,12 +184,6 @@ img {
   margin-right: auto;
   text-align: center;
 }
-
-/* Нужно? */
-footer {
-  margin: 5% auto;
-}
-
 .copyleft {
   display: inline-block;
   transform: rotate(180deg);
@@ -275,14 +268,4 @@ footer {
   background: #18b2b2;
   border-radius: 10px;
   }
-}
-
-/* Шрифт страницы
- * Cozette классный но на длительных постах трудно читать (либо это из-за того что я сонный)
- * TODO: Нужно выбрать более приятно читабельный шрифт */
-@font-face {
-  font-display: swap;
-  font-family: "Cozette";
-  size-adjust: 120%;
-  src: url("/assets/fonts/Cozette/CozetteVector.ttf") format("truetype");
 }
